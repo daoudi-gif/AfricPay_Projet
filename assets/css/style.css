@@ -1,0 +1,217 @@
+/**--=========================================Author : groupe legrandsoft ===================================
+===========================================site : legrandsoft.com=======================================*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+
+body{
+    font-family: 'Source sans Pro', sans-serif;
+    font-size: 13px;
+}
+
+h1 h2 h3{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    color: gray;
+}
+
+a:link{
+    color: #ffffff;
+}
+a:hover{
+    color:#0F3173;
+}
+a{
+    text-decoration: none;
+list-style: none;}
+
+@media scren and (max-width :768px)  and (maw-width :990px)
+
+{
+    #carousel{
+        position: relative;
+        top: 0;
+        margin: -15px;
+    }
+    
+    .card{
+        padding: 15px;
+        margin: 15px;
+        height: 100%;
+    }
+}
+
+.navbar{
+    background-color: #0F3173;
+    display: flex;
+    padding: 15px;
+    margin-bottom: 0;    
+}
+
+.btn-menu{
+    justify-content: flex-end;
+}
+
+.navbar .nav-link{
+    justify-content: flex-end;
+}
+
+.list-group{
+    background-color: rgb(44, 45, 47,0.33);
+}
+
+#section-1{
+    background-image:url("../images/network2-mobile.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 50px 15px;
+}
+
+#section-1 h2 {
+    color: white;
+    font-size: 48px;
+    font-weight: 100;
+}
+
+#section-1 h4{
+    color: white;
+}
+
+#section-2{
+    background-color:#0F3173;
+}
+
+#section-2 img{
+    max-width: 100%;
+}
+
+#section-3{
+    background-color: #0F3173;
+}
+
+.soulignement-dessus{
+    height: 5px;
+    z-index: 0;
+    position: relative;
+}
+
+.soulignement-dessous{
+    margin-top: -5px;
+    position: relative;
+    transform-origin: left;
+    transform: scaleX(0.3);
+    z-index: 1;
+    height: 5px;
+}
+
+.googlePlay{
+    height: 50px;
+}
+
+.appStore{
+    height: 50px;
+}
+
+#section-4{
+    padding-top: 30px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.titre-section-4{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*content slider */
+#section-5{
+    background-color: #0F3173;
+}
+/* footer section */
+
+#footer{
+    background-color:rgb(44, 45, 47);
+}
+
+footer ul li {
+    list-style: none;
+    text-decoration: none;
+    display: block;
+}
+
+#carousel{
+    position: relative;
+    top: 0;
+    margin: -15px;
+}
+
+.card{
+    padding: 15px;
+    margin: 15px;
+    height: 100%;
+}
+
+footer li a {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.bottom_text_index{
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+.about_text{
+    padding-top: 20%;
+    padding-bottom: 20%;
+    text-align: left;
+}
+
+
+
+/*Page  à_propos_de_AfricPay*/
+
+.hero-image{
+    top: 0;
+    margin:-15px;
+}
+.about_text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    padding: 0 40px;
+    font-size: 20px;
+    margin: 20px 20px 20px 0;
+
+}
+
+.navbar_about_page{
+
+}
+
+/*Section du contenu de la page */*
+.header{
+    top: 0;
+    background-color: #ffffff;
+}
+
+
+/*section du footer*/
+
+
+/* Section de contact */
+
+.contact{
+    display: block;
+    width: 500px;
+    justify-content: center;
+    margin: 20px 20px 20px 50px;
+}
+
+.text-area{
+    height: 100px;
+}
+
+
+ 
